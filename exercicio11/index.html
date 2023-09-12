@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Expressão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Expressão</h1>
+        <form id="expressaoForm">
+            <div class="form-group">
+                <label for="a">Valor de A:</label>
+                <input type="number" class="form-control" id="a" placeholder="Digite o valor de A" required>
+            </div>
+            <div class="form-group">
+                <label for="b">Valor de B:</label>
+                <input type="number" class="form-control" id="b" placeholder="Digite o valor de B" required>
+            </div>
+            <div class="form-group">
+                <label for="c">Valor de C:</label>
+                <input type="number" class="form-control" id="c" placeholder="Digite o valor de C" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Calcular</button>
+        </form>
+        <div id="resultado" class="mt-4">
+            <h4>Resultado:</h4>
+            <p>O valor de D é: <span id="valorD"></span></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

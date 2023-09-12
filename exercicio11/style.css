@@ -1,0 +1,67 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px; /* Bordas mais redondas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+}
+
+.form-group {
+    text-align: center; /* Centralizar campos digitáveis */
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Bordas mais redondas */
+    font-size: 16px;
+    text-align: center; /* Centralizar texto nos campos digitáveis */
+    margin: 0 auto; /* Centralizar campos horizontalmente */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px; /* Bordas mais redondas */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+    display: none;
+}
+
+#valorD {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
