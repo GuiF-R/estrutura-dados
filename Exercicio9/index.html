@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Dólar para Real</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Dólar para Real</h1>
+        
+        <label for="cotacao">Cotação do Dólar (US$/R$):</label>
+        <input type="number" id="cotacao" placeholder="Digite a cotação do dólar"><br><br>
+        
+        <label for="quantidadeDolar">Quantidade de Dólares (US$):</label>
+        <input type="number" id="quantidadeDolar" placeholder="Digite a quantidade de dólares"><br><br>
+        
+        <button id="calcular">Calcular Conversão</button><br><br>
+        
+        <div id="resultado" class="hidden">
+            <h2>Resultado</h2>
+            <p>Valor em Dólar (US$): <span id="valorDolar"></span></p>
+            <p>Valor em Real (R$): <span id="valorReal"></span></p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
