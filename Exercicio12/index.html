@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Temperatura</h1>
+        <form id="conversorForm">
+            <div class="form-group">
+                <label for="fahrenheit">Temperatura em Fahrenheit:</label>
+                <input type="number" class="form-control" id="fahrenheit" placeholder="Digite a temperatura em Fahrenheit" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Converter</button>
+        </form>
+        <div id="resultado" class="mt-4">
+            <h4>Resultado:</h4>
+            <p>A temperatura em Celsius é: <span id="celsius"></span>°C</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
