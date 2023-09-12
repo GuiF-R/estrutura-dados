@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Tinta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Tinta</h1>
+        <form id="tintaForm">
+            <div class="form-group">
+                <label for="altura">Altura (H) do cilindro:</label>
+                <input type="number" class="form-control" id="altura" placeholder="Digite a altura (H)" required>
+            </div>
+            <div class="form-group">
+                <label for="raio">Raio (R) do cilindro:</label>
+                <input type="number" class="form-control" id="raio" placeholder="Digite o raio (R)" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Calcular Custo e Quantidade de Latas</button>
+        </form>
+        <div id="resultado" class="mt-4">
+            <!-- O resultado será exibido aqui -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
